@@ -9,19 +9,25 @@
 /* Begin PBXBuildFile section */
 		1908AC4D2BA8E666000FF622 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908AC4C2BA8E666000FF622 /* AppDelegate.swift */; };
 		1908AC4F2BA8E666000FF622 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908AC4E2BA8E666000FF622 /* SceneDelegate.swift */; };
-		1908AC512BA8E666000FF622 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908AC502BA8E666000FF622 /* ViewController.swift */; };
 		1908AC562BA8E667000FF622 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1908AC552BA8E667000FF622 /* Assets.xcassets */; };
 		1908AC592BA8E667000FF622 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1908AC582BA8E667000FF622 /* Base */; };
+		1908AC612BA8F31A000FF622 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908AC602BA8F31A000FF622 /* SearchViewController.swift */; };
+		1908AC632BA8F415000FF622 /* FavoritesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908AC622BA8F415000FF622 /* FavoritesListViewController.swift */; };
+		1908AC652BA8FE18000FF622 /* GHFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908AC642BA8FE18000FF622 /* GHFButton.swift */; };
+		1908AC672BA992F2000FF622 /* GHFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908AC662BA992F2000FF622 /* GHFTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1908AC492BA8E666000FF622 /* GitHubFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1908AC4C2BA8E666000FF622 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1908AC4E2BA8E666000FF622 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1908AC502BA8E666000FF622 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1908AC552BA8E667000FF622 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1908AC582BA8E667000FF622 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1908AC5A2BA8E667000FF622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1908AC602BA8F31A000FF622 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		1908AC622BA8F415000FF622 /* FavoritesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListViewController.swift; sourceTree = "<group>"; };
+		1908AC642BA8FE18000FF622 /* GHFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHFButton.swift; sourceTree = "<group>"; };
+		1908AC662BA992F2000FF622 /* GHFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHFTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +62,10 @@
 			children = (
 				1908AC4C2BA8E666000FF622 /* AppDelegate.swift */,
 				1908AC4E2BA8E666000FF622 /* SceneDelegate.swift */,
-				1908AC502BA8E666000FF622 /* ViewController.swift */,
+				1908AC602BA8F31A000FF622 /* SearchViewController.swift */,
+				1908AC622BA8F415000FF622 /* FavoritesListViewController.swift */,
+				1908AC642BA8FE18000FF622 /* GHFButton.swift */,
+				1908AC662BA992F2000FF622 /* GHFTextField.swift */,
 				1908AC552BA8E667000FF622 /* Assets.xcassets */,
 				1908AC572BA8E667000FF622 /* LaunchScreen.storyboard */,
 				1908AC5A2BA8E667000FF622 /* Info.plist */,
@@ -134,9 +143,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1908AC512BA8E666000FF622 /* ViewController.swift in Sources */,
+				1908AC612BA8F31A000FF622 /* SearchViewController.swift in Sources */,
 				1908AC4D2BA8E666000FF622 /* AppDelegate.swift in Sources */,
+				1908AC632BA8F415000FF622 /* FavoritesListViewController.swift in Sources */,
+				1908AC652BA8FE18000FF622 /* GHFButton.swift in Sources */,
 				1908AC4F2BA8E666000FF622 /* SceneDelegate.swift in Sources */,
+				1908AC672BA992F2000FF622 /* GHFTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
