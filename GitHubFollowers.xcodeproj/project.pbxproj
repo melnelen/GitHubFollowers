@@ -15,6 +15,8 @@
 		1908AC632BA8F415000FF622 /* FavoritesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908AC622BA8F415000FF622 /* FavoritesListViewController.swift */; };
 		1908AC652BA8FE18000FF622 /* GHFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908AC642BA8FE18000FF622 /* GHFButton.swift */; };
 		1908AC672BA992F2000FF622 /* GHFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908AC662BA992F2000FF622 /* GHFTextField.swift */; };
+		1908AC692BA997EC000FF622 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1908AC682BA997EC000FF622 /* README.md */; };
+		1908AC6B2BA997FB000FF622 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 1908AC6A2BA997FB000FF622 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		1908AC622BA8F415000FF622 /* FavoritesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListViewController.swift; sourceTree = "<group>"; };
 		1908AC642BA8FE18000FF622 /* GHFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHFButton.swift; sourceTree = "<group>"; };
 		1908AC662BA992F2000FF622 /* GHFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHFTextField.swift; sourceTree = "<group>"; };
+		1908AC682BA997EC000FF622 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1908AC6A2BA997FB000FF622 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,8 @@
 		1908AC402BA8E666000FF622 = {
 			isa = PBXGroup;
 			children = (
+				1908AC682BA997EC000FF622 /* README.md */,
+				1908AC6A2BA997FB000FF622 /* .gitignore */,
 				1908AC4B2BA8E666000FF622 /* GitHubFollowers */,
 				1908AC4A2BA8E666000FF622 /* Products */,
 			);
@@ -131,6 +137,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1908AC6B2BA997FB000FF622 /* .gitignore in Resources */,
+				1908AC692BA997EC000FF622 /* README.md in Resources */,
 				1908AC562BA8E667000FF622 /* Assets.xcassets in Resources */,
 				1908AC592BA8E667000FF622 /* Base in Resources */,
 			);
