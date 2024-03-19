@@ -39,7 +39,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
     func createTabbar() -> UITabBarController{
         let tabbar = UITabBarController()
-        UITabBar.appearance().tintColor = .systemIndigo
+        UITabBar.appearance().tintColor = .systemPurple
         tabbar.viewControllers = [createSearchNavigationController(), createFavoritesListNavigationController()]
         
         return tabbar
