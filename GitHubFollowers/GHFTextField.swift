@@ -21,7 +21,7 @@ class GHFTextField: UITextField {
     private func configure() {
         translatesAutoresizingMaskIntoConstraints = false
         
-        layer.cornerRadius = 10
+        layer.cornerRadius = 15
         layer.borderWidth = 2
         layer.borderColor = UIColor.systemGray4.cgColor
         
@@ -34,6 +34,8 @@ class GHFTextField: UITextField {
         
         backgroundColor = .tertiarySystemBackground
         autocorrectionType = .no
+        
+        returnKeyType = .go
         
         placeholder = "Enter username"
     }

@@ -17,6 +17,11 @@
 		1908AC672BA992F2000FF622 /* GHFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908AC662BA992F2000FF622 /* GHFTextField.swift */; };
 		1908AC692BA997EC000FF622 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1908AC682BA997EC000FF622 /* README.md */; };
 		1908AC6B2BA997FB000FF622 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 1908AC6A2BA997FB000FF622 /* .gitignore */; };
+		1908AC6D2BA9D8B6000FF622 /* FollowersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908AC6C2BA9D8B6000FF622 /* FollowersListViewController.swift */; };
+		1908AC6F2BAA36E5000FF622 /* GHFTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908AC6E2BAA36E5000FF622 /* GHFTitleLabel.swift */; };
+		1908AC712BAA3BA0000FF622 /* GHFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908AC702BAA3BA0000FF622 /* GHFBodyLabel.swift */; };
+		1908AC732BAA3BD7000FF622 /* GHFAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908AC722BAA3BD7000FF622 /* GHFAlertViewController.swift */; };
+		1956B7B92BACE1D000C4E76D /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1956B7B82BACE1D000C4E76D /* UIViewController+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,11 @@
 		1908AC662BA992F2000FF622 /* GHFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHFTextField.swift; sourceTree = "<group>"; };
 		1908AC682BA997EC000FF622 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1908AC6A2BA997FB000FF622 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		1908AC6C2BA9D8B6000FF622 /* FollowersListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowersListViewController.swift; sourceTree = "<group>"; };
+		1908AC6E2BAA36E5000FF622 /* GHFTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHFTitleLabel.swift; sourceTree = "<group>"; };
+		1908AC702BAA3BA0000FF622 /* GHFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHFBodyLabel.swift; sourceTree = "<group>"; };
+		1908AC722BAA3BD7000FF622 /* GHFAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHFAlertViewController.swift; sourceTree = "<group>"; };
+		1956B7B82BACE1D000C4E76D /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,9 +79,14 @@
 				1908AC4C2BA8E666000FF622 /* AppDelegate.swift */,
 				1908AC4E2BA8E666000FF622 /* SceneDelegate.swift */,
 				1908AC602BA8F31A000FF622 /* SearchViewController.swift */,
+				1908AC6C2BA9D8B6000FF622 /* FollowersListViewController.swift */,
 				1908AC622BA8F415000FF622 /* FavoritesListViewController.swift */,
+				1908AC722BAA3BD7000FF622 /* GHFAlertViewController.swift */,
 				1908AC642BA8FE18000FF622 /* GHFButton.swift */,
 				1908AC662BA992F2000FF622 /* GHFTextField.swift */,
+				1908AC6E2BAA36E5000FF622 /* GHFTitleLabel.swift */,
+				1908AC702BAA3BA0000FF622 /* GHFBodyLabel.swift */,
+				1956B7B82BACE1D000C4E76D /* UIViewController+Ext.swift */,
 				1908AC552BA8E667000FF622 /* Assets.xcassets */,
 				1908AC572BA8E667000FF622 /* LaunchScreen.storyboard */,
 				1908AC5A2BA8E667000FF622 /* Info.plist */,
@@ -154,7 +169,12 @@
 				1908AC612BA8F31A000FF622 /* SearchViewController.swift in Sources */,
 				1908AC4D2BA8E666000FF622 /* AppDelegate.swift in Sources */,
 				1908AC632BA8F415000FF622 /* FavoritesListViewController.swift in Sources */,
+				1956B7B92BACE1D000C4E76D /* UIViewController+Ext.swift in Sources */,
+				1908AC6D2BA9D8B6000FF622 /* FollowersListViewController.swift in Sources */,
 				1908AC652BA8FE18000FF622 /* GHFButton.swift in Sources */,
+				1908AC6F2BAA36E5000FF622 /* GHFTitleLabel.swift in Sources */,
+				1908AC712BAA3BA0000FF622 /* GHFBodyLabel.swift in Sources */,
+				1908AC732BAA3BD7000FF622 /* GHFAlertViewController.swift in Sources */,
 				1908AC4F2BA8E666000FF622 /* SceneDelegate.swift in Sources */,
 				1908AC672BA992F2000FF622 /* GHFTextField.swift in Sources */,
 			);

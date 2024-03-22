@@ -19,6 +19,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.windowScene = windowScene
         window?.rootViewController = createTabbar()
         window?.makeKeyAndVisible()
+        
+        configureNavigationBar()
     }
     
     func createSearchNavigationController() -> UINavigationController {
@@ -43,6 +45,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         tabbar.viewControllers = [createSearchNavigationController(), createFavoritesListNavigationController()]
         
         return tabbar
+    }
+    
+    func configureNavigationBar() {
+        UINavigationBar.appearance().tintColor = .systemPurple
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
