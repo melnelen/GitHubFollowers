@@ -22,6 +22,8 @@
 		1908AC712BAA3BA0000FF622 /* GHFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908AC702BAA3BA0000FF622 /* GHFBodyLabel.swift */; };
 		1908AC732BAA3BD7000FF622 /* GHFAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1908AC722BAA3BD7000FF622 /* GHFAlertViewController.swift */; };
 		1956B7B92BACE1D000C4E76D /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1956B7B82BACE1D000C4E76D /* UIViewController+Ext.swift */; };
+		1956B7E82BB1CB7400C4E76D /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1956B7E72BB1CB7400C4E76D /* Follower.swift */; };
+		1956B7EA2BB1CD7B00C4E76D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1956B7E92BB1CD7B00C4E76D /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		1908AC702BAA3BA0000FF622 /* GHFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHFBodyLabel.swift; sourceTree = "<group>"; };
 		1908AC722BAA3BD7000FF622 /* GHFAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHFAlertViewController.swift; sourceTree = "<group>"; };
 		1956B7B82BACE1D000C4E76D /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		1956B7E72BB1CB7400C4E76D /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
+		1956B7E92BB1CD7B00C4E76D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 				1908AC682BA997EC000FF622 /* README.md */,
 				1908AC6A2BA997FB000FF622 /* .gitignore */,
 				1908AC4B2BA8E666000FF622 /* GitHubFollowers */,
+				1908AC5A2BA8E667000FF622 /* Info.plist */,
 				1908AC4A2BA8E666000FF622 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,6 +83,7 @@
 			children = (
 				1956B7BA2BAD6FCD00C4E76D /* Controllers */,
 				1956B7BB2BAD708700C4E76D /* CustomViews */,
+				1956B7E62BB1CB4A00C4E76D /* Model */,
 				1956B7BC2BAD710F00C4E76D /* Extentions */,
 				1956B7BD2BAD71D600C4E76D /* Support */,
 			);
@@ -121,9 +127,17 @@
 				1908AC4E2BA8E666000FF622 /* SceneDelegate.swift */,
 				1908AC552BA8E667000FF622 /* Assets.xcassets */,
 				1908AC572BA8E667000FF622 /* LaunchScreen.storyboard */,
-				1908AC5A2BA8E667000FF622 /* Info.plist */,
 			);
 			path = Support;
+			sourceTree = "<group>";
+		};
+		1956B7E62BB1CB4A00C4E76D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1956B7E72BB1CB7400C4E76D /* Follower.swift */,
+				1956B7E92BB1CD7B00C4E76D /* User.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1956B7EA2BB1CD7B00C4E76D /* User.swift in Sources */,
 				1908AC612BA8F31A000FF622 /* SearchViewController.swift in Sources */,
 				1908AC4D2BA8E666000FF622 /* AppDelegate.swift in Sources */,
 				1908AC632BA8F415000FF622 /* FavoritesListViewController.swift in Sources */,
@@ -205,6 +220,7 @@
 				1908AC6D2BA9D8B6000FF622 /* FollowersListViewController.swift in Sources */,
 				1908AC652BA8FE18000FF622 /* GHFButton.swift in Sources */,
 				1908AC6F2BAA36E5000FF622 /* GHFTitleLabel.swift in Sources */,
+				1956B7E82BB1CB7400C4E76D /* Follower.swift in Sources */,
 				1908AC712BAA3BA0000FF622 /* GHFBodyLabel.swift in Sources */,
 				1908AC732BAA3BD7000FF622 /* GHFAlertViewController.swift in Sources */,
 				1908AC4F2BA8E666000FF622 /* SceneDelegate.swift in Sources */,
