@@ -8,7 +8,7 @@
 import UIKit
 
 extension UIViewController {
-    func presentGHFAlertnMainThread(title: String, message: String, buttonTitle: String) {
+    func presentGHFAlertOnMainThread(title: String, message: String, buttonTitle: String) {
         DispatchQueue.main.async {
             let alertViewController = GHFAlertViewController(alertTitle: title, message: message, buttonTitle: buttonTitle)
             alertViewController.modalPresentationStyle = .overFullScreen
